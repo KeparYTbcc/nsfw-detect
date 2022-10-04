@@ -4,16 +4,14 @@ Rest API Written In Python To Classify NSFW Images.
 [![Python](http://forthebadge.com/images/badges/made-with-python.svg)](https://python.org)
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/TheHamkerCat/)
 
-<img src="https://hamker.me/r3x9rpu.png" width=200 height=200>
-
 # Fastest Solution
 
-If you don't want to selfhost it, there's already an instance of this running [here](https://thearq.tech/nsfw_scan?url=https://hamker.me/8ni586l.png)
+If you don't want to selfhost it, there's already an instance of this running [here](https://nsfw-detect.herokuapp.com?url=)
 
 ## Install Locally Or On A VPS
 
 ```sh
-$ git clone https://github.com/thehamkercat/NSFW_Detection_API
+$ git clone https://github.com/KeparYTbcc/nsfw-detect
 
 $ cd NSFW_Detection_API
 
@@ -22,6 +20,11 @@ $ pip3 install -U -r requirements.txt
 $ python3 -m api
 ```
 
+## Quick use:
+
+```sh
+$ curl http://127.0.0.1/?url=https://nsfwimage.com/image.png
+```
 ## Classifies
 
 * **Hentai** - Hentai and pornographic drawings
