@@ -6,7 +6,7 @@ Rest API Written In Python To Classify NSFW Images.
 
 # Fastest Solution
 
-If you don't want to selfhost it, there's already an instance of this running [here](https://nsfw-detect.herokuapp.com?url=)
+If you don't want to selfhost it, there's already an instance of this running [here](https://nsfw-detection-api.onrender.com?url=)
 
 ## Install Locally Or On A VPS
 
