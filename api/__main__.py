@@ -2,6 +2,7 @@ from api import predict, app
 from api.functions import download_image
 from config import PORT
 import os
+import uvicorn
 
 model = predict.load_model('nsfw_detector/nsfw_model.h5')
 
@@ -34,4 +35,4 @@ async def detect_nsfw(url: str):
         return results
 
 if __name__ == "__main__":
-    os.system('gunicorn api:app')
+    uvicorn.run("api:app", host="0.0.0.0", port=PORT, log_level="info")
